@@ -23,10 +23,6 @@ document.addEventListener("mousemove", function(event) {
 
     if (name==null){
 
-      var audio =  new Audio('Shape Of You - Bgm.mp3');
-      
-      
-
     }
 
     else{
@@ -34,14 +30,8 @@ document.addEventListener("mousemove", function(event) {
     paragraph.textContent = 'My Dear '+ name;
     }
 
-    var audio =  new Audio('Flute Remix.mp3');
-    audio.play()
-    audio.volume(0);
-    audio.play();
 
   }
-  
-
 
 
   

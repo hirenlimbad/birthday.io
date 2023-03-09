@@ -5,14 +5,11 @@ body{
   background: rgb(63,94,251);
   background: radial-gradient(circle, rgba(63,94,251,1) 0%, rgba(252,70,107,1) 100%); 
 
-
-  background-image: linear-gradient(120deg, #f093fb 0%, #f5576c 100%);
-
-  background-repeat: no-repeat;
+  background-repeat: no-repeat ;
 }
 
 .container {
-  max-width: 600px;
+  max-width: 700px;
   margin: 5% 0% 30% 0%;
   padding: 20px;
   font-family: Arial, sans-serif;
@@ -22,8 +19,8 @@ body{
 
   min-width: auto;
   -webkit-box-shadow: 10px 10px 108px 6px rgba(0, 0, 0, 0.345);
--moz-box-shadow: 10px 10px 108px 6px rgba(47, 104, 218, 0.384);
-box-shadow: 10px 10px 108px 6px rgba(232, 57, 57, 0.331);
+  -moz-box-shadow: 10px 10px 108px 6px rgba(47, 104, 218, 0.384);
+  box-shadow: 10px 10px 108px 6px rgba(232, 57, 57, 0.331);
 
 }
 
@@ -89,9 +86,9 @@ img{
 
 .gradient-background {
   height: 600px;
-   background: linear-gradient(62deg, #EE7752, #E73C7E, #23A6D5, #23D5AB);
+   background: linear-gradient(65deg, #EE7752, #E73C7E, #23A6D5, #23D5AB);
      animation: gradient 15s ease infinite; 
-      background-size: 400% 400%;
+      background-size: 600% 600%;
   
 }
 @-webkit-keyframes gradient{
